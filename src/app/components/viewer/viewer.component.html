@@ -1,0 +1,10 @@
+<h1>Image Viewer</h1>
+
+<div class="buttons">
+  <button (click)="prevFile()"><< Prev</button>
+  <button (click)="nextFile()">Next >></button>
+</div>
+
+<p>{{ currentFile }}</p>
+
+<ngx-imageviewer [src]="currentFile"></ngx-imageviewer>

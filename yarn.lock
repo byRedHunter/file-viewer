@@ -1227,6 +1227,15 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@mxa30/ngx-imageviewer@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@mxa30/ngx-imageviewer/-/ngx-imageviewer-3.0.0.tgz#d679e51914d7c0b8005713f397eeb70fc9345440"
+  integrity sha512-kMC6nKFV9lMwpASjj2HapvAwNUuD1l6na31Uw+9onT8JEMsUGRImvngmwJNX7mk1KTbSrl68TbnkEHeET3Z37g==
+  dependencies:
+    tslib "^2.0.0"
+  optionalDependencies:
+    pdfjs-dist "~2.5.207"
+
 "@ngtools/webpack@13.2.6":
   version "13.2.6"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-13.2.6.tgz#8fe9c54dce13ec291eeef352ed773b77d1d0bed0"
@@ -4859,6 +4868,11 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
+pdfjs-dist@2.5.207, pdfjs-dist@~2.5.207:
+  version "2.5.207"
+  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.5.207.tgz#b5e8c19627be64269cd3fb6df3eaaf45ddffe7b6"
+  integrity sha512-xGDUhnCYPfHy+unMXCLCJtlpZaaZ17Ew3WIL0tnSgKFUZXHAPD49GO9xScyszSsQMoutNDgRb+rfBXIaX/lJbw==
+
 picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
@@ -6092,7 +6106,7 @@ tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.1.0, tslib@^2.3.0:
+tslib@^2.0.0, tslib@^2.1.0, tslib@^2.3.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==

@@ -2,15 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ViewerComponent } from './components/viewer/viewer.component';
+import { ImageViewerModule } from '@mxa30/ngx-imageviewer';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, ViewerComponent],
+  imports: [BrowserModule, ImageViewerModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
