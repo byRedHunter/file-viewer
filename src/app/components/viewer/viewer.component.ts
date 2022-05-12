@@ -10,7 +10,6 @@ export class ViewerComponent implements OnInit {
 
   currentFile: string = '';
   files: string[] = [
-    'https://riptutorial.com/Download/html5-canvas-es.pdf',
     '/assets/pdf/cv-QN.pdf',
     '/assets/images/toyStory.jpg',
     'https://www.orientacionandujar.es/wp-content/uploads/2015/03/CUENTOS-CON-EL-ABECEDARIO-1%C2%BA.pdf',
